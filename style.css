@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;400&display=swap");
+header {
+  background-color: rgb(19, 19, 19);
+}
+
+body.backgroundLinux article.terminal {
+  background-color: rgba(0, 0, 0, 0.568);
+  border-color: rgba(2, 2, 2, 0);
+  box-shadow: rgba(110, 110, 110, 0.356) 3px 10px 10px 3px;
+}
+body.backgroundLinux article.terminal div.window {
+  background-color: white;
+  color: rgba(2, 2, 2, 0);
+}
+body.backgroundLinux article.terminal div.window p.dir {
+  color: rgba(2, 2, 2, 0);
+}
+body.backgroundLinux article.terminal p.type {
+  color: yellowgreen;
+}
+body.backgroundLinux article.terminal p.type span.textWhite {
+  color: white;
+}
+
+img#buttonClose:hover {
+  background-color: rgba(255, 0, 0, 0.596);
+  cursor: not-allowed;
+}
+
+div.footer {
+  background-color: rgba(0, 0, 0, 0.692);
+  border: 1px rgb(107, 107, 107) solid;
+}
+div.footer img.terminal:nth-of-type(1) {
+  border: 1px white solid;
+}
+
+img.buttonsNav:hover {
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.logoTerminal {
+  border: white 1px solid;
+}
+
+ul.navHeader a, li {
+  color: white;
+}
+
+div.iconsHeader:hover {
+  background-color: rgba(128, 128, 128, 0.555);
+}
+
+article.headerCMD {
+  background-color: white;
+}
+
+span.textPurple {
+  color: rgb(194, 3, 194);
+}
+
+a.textWhite {
+  color: white;
+}
+
+body.index_segundo {
+  background-color: black;
+}
+
+header.header2 {
+  background-color: black;
+}
+
+.titulo {
+  color: #98EB6C;
+}
+
+.texto {
+  color: #98EB6C;
+}
+
+div.imgIndexSegundo:nth-of-type(1) {
+  background-color: #202020;
+}
+
+div.imgIndexSegundo:nth-of-type(2) {
+  background-color: #202020;
+}
+
+div.imgIndexSegundo:nth-of-type(3) {
+  background-color: #202020;
+}
+
+body.quemFezTudo {
+  background-color: black;
+}
+
+span.textAnim {
+  color: yellowgreen;
+}
+
+h2.textAnim {
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "JetBrains Mono", monospace;
+}
+
+div.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-indent: 8px;
+  font-family: monospace;
+}
+
+h2.textAnim {
+  font-size: 2em;
+  margin: 0;
+}
+
+span.textAnim {
+  font-size: 2em;
+  animation: animate 10s infinite 0s;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+span.textAnim:nth-child(2) {
+  animation-delay: 2s;
+}
+
+span.textAnim:nth-child(3) {
+  animation-delay: 4s;
+}
+
+span.textAnim:nth-child(4) {
+  animation-delay: 6s;
+}
+
+span.textAnim:nth-child(5) {
+  animation-delay: 8s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+div.divAnim {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+body.backgroundLinux {
+  background-image: url(img/backgroundUbuntuLTS.png);
+  background-repeat: no-repeat;
+}
+body.backgroundLinux section.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.backgroundLinux section.principal article.terminal {
+  width: 80%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: auto;
+}
+body.backgroundLinux section.principal article.terminal p.type {
+  margin-left: 0.3em;
+  font-size: 0.8em;
+}
+body.backgroundLinux section.principal article.terminal p.type span.textWhite {
+  margin-left: 0.3em;
+  font-size: 1em;
+}
+body.backgroundLinux header {
+  width: 100%;
+}
+body.backgroundLinux header div.iconsHeader {
+  margin-right: 2em;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: right;
+}
+body.backgroundLinux header div.iconsHeader img.iconsHeader {
+  width: 1em;
+  height: 1em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+body.backgroundLinux hr {
+  color: yellowgreen;
+}
+body.backgroundLinux .logoTerminal {
+  border-radius: 17px;
+}
+body.backgroundLinux img.buttonsNav:hover {
+  cursor: not-allowed;
+}
+body.backgroundLinux ul.navHeader a, body.backgroundLinux li {
+  text-decoration: none;
+  display: flex;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+body.backgroundLinux span.textPurple {
+  margin-left: 0.3em;
+  font-size: 1em;
+}
+body.backgroundLinux div.iconsHeader:hover {
+  border-radius: 10px;
+  cursor: not-allowed;
+}
+
+article.headerCMD {
+  top: 20%;
+  position: absolute;
+  transform: translateY(-100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3em;
+  width: 80%;
+}
+
+div.navBarLeft {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+}
+
+p.dir {
+  font-size: 0.9em;
+  margin-left: 0.3em;
+}
+
+div.navBarRight {
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+
+img.buttonsNav {
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.5em;
+}
+
+img#buttonClose {
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.5em;
+}
+
+img.icons, .logoTerminal {
+  width: 3em;
+  border-radius: 17px;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+
+img.logoTerminal:hover:nth-of-type(1) {
+  cursor: not-allowed;
+}
+
+div.footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  height: 4em;
+  margin-bottom: 1em;
+  border-radius: 15px;
+}
+div.footer a {
+  text-decoration: none;
+}
+
+a.textWhite {
+  text-decoration: none;
+  font-size: 1em;
+  margin-left: 0.3em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* media index 1 */
+@media only screen and (max-width: 437px) {
+  p.dir {
+    font-size: 0.8em;
+  }
+  img.buttonsNav, img#buttonClose {
+    width: 0.8em;
+    height: 0.8em;
+  }
+}
+@media only screen and (max-width: 360px) {
+  p.dir {
+    font-size: 0.5em;
+  }
+  img.buttonsNav, img#buttonClose {
+    width: 0.6em;
+    height: 0.6em;
+  }
+  p.type {
+    font-size: 0.6em;
+  }
+}
+/* pag 2 */
+section.pagSec {
+  display: flex;
+  justify-content: center;
+}
+
+img.mediaImgPagSec {
+  width: 4em;
+  height: 4em;
+}
+
+img.mediaPontosPagSec {
+  width: 4em;
+}
+
+/* media part2 */
+@media only screen and (max-width: 700px) {
+  img.mediaImgPagSec {
+    width: 3em;
+    height: 3em;
+  }
+  img.mediaPontosPagSec {
+    width: 3em;
+  }
+}
+@media only screen and (max-width: 539px) {
+  img.mediaImgPagSec {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  img.mediaPontosPagSec {
+    width: 2em;
+  }
+}
+span#mais {
+  display: none;
+}
+
+#art1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pombo {
+  width: 10em;
+  height: 11em;
+  margin-left: 5em;
+}
+
+img#logopombo {
+  width: 7em;
+  height: 7em;
+}
+
+#senac {
+  margin-right: 3em;
+  width: 8em;
+  height: 5em;
+}
+
+section.index_segundo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article.conteudo {
+  width: 80%;
+  text-align: center;
+}
+
+video.imgIndexSegundo {
+  width: 16em;
+  height: 10em;
+}
+
+article.imgIndexSegundo {
+  margin-top: 4em;
+}
+
+@media only screen and (max-width: 370px) {
+  video.imgIndexSegundo {
+    width: 10em;
+    height: 6em;
+  }
+}
+div.imgIndexSegundo:nth-of-type(1) {
+  padding-left: 2em;
+  padding-bottom: 0;
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+
+div.imgIndexSegundo:nth-of-type(2) {
+  display: flex;
+  justify-content: right;
+  padding-right: 2em;
+}
+
+div.imgIndexSegundo:nth-of-type(3) {
+  padding-left: 2em;
+  margin-left: 3em;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+div.imgConteudo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6em;
+}
+
+div.imgConteudo2 img {
+  padding: 0.2em;
+}
+
+@media only screen and (max-width: 700px) {
+  img#pombo {
+    width: 4em;
+    height: 5em;
+  }
+  img#senac {
+    width: 5em;
+    height: 3em;
+  }
+}
+header.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+}
+header.header2 nav.header2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media only screen and (max-width: 484px) {
+  header.header2 #logopombo {
+    width: 3em;
+    height: 3em;
+  }
+  header.header2 .A_nav {
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .A_nav {
+    font-size: 0.3em;
+  }
+}
+#logopombo {
+  width: 7em;
+  height: 7em;
+}
+
+a {
+  padding: 0.4em;
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

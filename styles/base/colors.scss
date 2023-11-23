@@ -1,0 +1,100 @@
+$primaryColor: rgba(2, 2, 2, 0);
+$secondaryColor: #FFFF;
+$tertiaryColor: #0C4C09;
+
+header{
+        background-color: rgb(19, 19, 19);
+        
+  }
+body.backgroundLinux{
+    article.terminal{
+        background-color: rgba(0, 0, 0, 0.568);
+        border-color: $primaryColor;
+        box-shadow: rgba(110, 110, 110, 0.356) 3px 10px 10px 3px;
+        div.window{
+            background-color: $secondaryColor;
+            color: $primaryColor;
+            p.dir{
+                color: $primaryColor;
+            }
+        }
+        p.type{
+            color: yellowgreen;
+                span.textWhite{
+                    color: white;
+            }
+        }
+    }
+}
+img#buttonClose:hover{
+          background-color: rgba(255, 0, 0, 0.596);
+          
+          cursor: not-allowed;}
+div.footer{
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 1px rgb(107, 107, 107) solid;
+    img.terminal:nth-of-type(1){
+        border: 1px $secondaryColor solid;
+        
+    }
+}
+img.buttonsNav:hover{
+    background-color: rgba(0, 0, 0, 0.24);}
+    .logoTerminal{
+        border: white 1px solid;
+    }
+
+    
+      ul.navHeader a,li{
+        color: white;
+
+      }
+      div.iconsHeader:hover{
+        background-color: rgba(128, 128, 128, 0.555);}
+article.headerCMD{
+    background-color: $secondaryColor;
+        
+    
+}
+span.textPurple{
+    color: rgb(194, 3, 194);}
+    a.textWhite{
+        color: white;
+    }
+
+body.index_segundo{
+
+        background-color: black;
+
+    }
+    header.header2{
+        background-color: black;}
+
+        .titulo{
+
+            color:#98EB6C;
+        
+        
+        }
+        .texto{
+        
+            color:#98EB6C;
+        
+        }
+        div.imgIndexSegundo:nth-of-type(1){
+            background-color: #202020;}
+            div.imgIndexSegundo:nth-of-type(2){
+                 background-color: #202020;}
+                 div.imgIndexSegundo:nth-of-type(3){
+                    background-color: #202020;}
+
+                    
+body.quemFezTudo{
+    background-color: black;
+}
+span.textAnim{
+    color: yellowgreen;
+}
+h2.textAnim{
+    color: white;
+}
