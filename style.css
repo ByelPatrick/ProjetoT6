@@ -380,6 +380,17 @@ img.portGaragemImg {
     width: 5em;
   }
 }
+a.downloadT6 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+a.downloadT6:hover {
+  color: greenyellow;
+}
+
 #art1 {
   display: flex;
   align-items: center;
