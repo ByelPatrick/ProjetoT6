@@ -24,7 +24,7 @@ body.backgroundLinux{
       }
   }
       
-  
+
 header{
   
         width: 100%;
@@ -185,7 +185,16 @@ img#buttonClose{
       width: 3em;
     }
   }
-  @media only screen and (max-width:539px){
+  
+  span#mais{
+    display: none;
+  }
+
+
+  img.portGaragemImg{
+    width: 20em;
+  }
+  @media (max-width:539px){
     img.mediaImgPagSec{
       width: 1.5em;
       height: 1.5em;
@@ -193,9 +202,11 @@ img#buttonClose{
     img.mediaPontosPagSec{
       width: 2em;
     }
+    img.portGaragemImg{
+      width: 5em;
+      
+    }
+    
   }
-  span#mais{
-    display: none;
-  }
-
+  
 
