@@ -22,6 +22,10 @@ body.backgroundLinux article.terminal p.type span.textWhite {
   color: white;
 }
 
+a.downloadT6:hover {
+  color: greenyellow;
+}
+
 img#buttonClose:hover {
   background-color: rgba(255, 0, 0, 0.596);
   cursor: not-allowed;
@@ -212,9 +216,6 @@ body.backgroundLinux header div.iconsHeader img.iconsHeader {
   margin-left: 0.2em;
   margin-right: 0.2em;
 }
-body.backgroundLinux hr {
-  color: yellowgreen;
-}
 body.backgroundLinux .logoTerminal {
   border-radius: 17px;
 }
@@ -387,10 +388,6 @@ a.downloadT6 {
   margin-top: 2em;
 }
 
-a.downloadT6:hover {
-  color: greenyellow;
-}
-
 #art1 {
   display: flex;
   align-items: center;
@@ -486,23 +483,17 @@ header.header2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 5%;
 }
-header.header2 nav.header2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+
 @media only screen and (max-width: 484px) {
-  header.header2 #logopombo {
+  #logopombo {
     width: 3em;
     height: 3em;
   }
-  header.header2 .A_nav {
+  .A_nav {
     font-size: 0.6em;
   }
 }
-
 @media only screen and (max-width: 325px) {
   .A_nav {
     font-size: 0.3em;
